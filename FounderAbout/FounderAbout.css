@@ -1,0 +1,15 @@
+.founder-content{
+  display: flex;
+  column-gap: 20px;
+}
+
+.founder-content-left{
+  width: 100%;
+  max-width: 40%;
+  min-width: 40%;
+}
+.founder-content-right{
+  width: 100%;
+  max-width: 55%;
+  min-width: 55%;
+}
