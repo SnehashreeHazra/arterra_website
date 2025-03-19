@@ -22,13 +22,22 @@
 .header-right{
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 .header-right p{
-  font-size: 20px;
-  color: rgb(248, 191, 118);
+  font-size: 15px;
+  font-weight: 300;
+  color: #DFB94C;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .header00 img{
   width: 120px;
+}
+
+.header00 i{
+  color: #DFB94C;
+  font-size:20px;
+  cursor: pointer;
 }
