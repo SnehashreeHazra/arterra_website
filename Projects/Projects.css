@@ -50,8 +50,25 @@
   font-weight: 300;
   cursor: pointer;
 }
+.overlay2{
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0); 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  font-weight: 300;
+  cursor: pointer;
+}
 
 .project-item:hover .overlay {
   background: rgba(0, 0, 0, 0.5); 
   opacity: 1;
 }
+
+
