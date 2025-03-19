@@ -78,6 +78,7 @@ ul a{
   color: #DFB94C;
   padding: 40px 20px;
   transition: 0.3s;
+  z-index: 9999;
 }
 .sidebar ul{
   margin-top: 40px;
