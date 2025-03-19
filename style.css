@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+ul a{
+  text-decoration: none;
+  color: #DFB94C;
+}
+
 .uni-container{
   width: 100%;
   max-width: 80%;
@@ -83,6 +88,7 @@
   padding: 10px 0px;
   font-weight: 350;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* When checkbox is checked, show sidebar */
