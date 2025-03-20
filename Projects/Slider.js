@@ -26,5 +26,15 @@
       delay: 3000, // Auto-slide every 3 seconds
       disableOnInteraction: false,
     },
+  //   breakpoints: {
+  //   999: {
+  //     spaceBetween: 20, // Reduce space between slides when width is 600px or less
+      
+  //   },
+  //   400: {
+  //     spaceBetween: 10, // Further reduce space for smaller screens
+  //     slidesPerView: 1, // Show only 1 slide for very small screens
+  //   }
+  // }
   });
   
