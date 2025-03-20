@@ -6,6 +6,16 @@ details summary::-webkit-details-marker {
   display: none; /* Hides the marker in WebKit browsers (Chrome, Safari) */
 }
 
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #DFB94C; 
+}
+
+.swiper-pagination-bullet {
+  background: #fff; /* Change pagination dots color */
+}
+
 .projects-container{
   margin-bottom: 20px;
 }
@@ -116,20 +126,18 @@ details summary::-webkit-details-marker {
 
 .new-cruise-container img{
   width: 100%;
-  /* max-width: 80%; */
-  /* min-width: 80%; */
-  margin: 0 auto;
   height: 500px;
 }
 
 .new-cruise-text{
   display: flex;
   margin-top: 40px;
+  column-gap: 20px;
 }
 .text-left-1{
   width: 100%;
-  max-width: 70%;
-  min-width: 70%;
+  max-width: 65%;
+  min-width: 65%;
 }
 .text-left-1 h3{
   color: #DFB94C;
@@ -179,4 +187,15 @@ details summary::-webkit-details-marker {
   cursor: pointer;
   padding: 5px 0;
 }
+.slider-2-container{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+.slider-2-container img{
+  width: 300px;
+  height: 200px;
+}
+
 
