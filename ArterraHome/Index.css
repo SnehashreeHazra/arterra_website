@@ -14,3 +14,27 @@
     min-width: 100%;
     object-fit: cover;
 }
+@media(max-width:1499px){
+    .home_footer{
+        margin-top: 20px !important;
+    }
+}
+@media(max-width:999px){
+    .artera_video_div video{
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        object-fit: contain;
+    }
+}
+@media(max-width:499px){
+    .home_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+        margin-top: 0px !important;
+    }
+}
