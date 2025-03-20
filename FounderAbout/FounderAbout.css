@@ -1,7 +1,8 @@
 .founder-content{
   display: flex;
   column-gap: 30px;
-  margin-top: 50px;
+  padding: 40px 0px;
+  /* margin-top: 50px; */
   /* height: 75vh; */
 }
 
