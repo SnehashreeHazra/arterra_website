@@ -87,7 +87,7 @@ ul a{
 .sidebar li{
   list-style-type: none;
   padding: 10px 0px;
-  font-weight: lighter;
+  /* font-weight: lighter; */
   text-transform: capitalize;
   cursor: pointer;
   font-size: 17px;
