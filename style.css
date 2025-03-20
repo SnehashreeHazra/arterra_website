@@ -12,8 +12,8 @@ ul a{
 
 .uni-container{
   width: 100%;
-  max-width: 80%;
-  min-width: 80%;
+  max-width: 82%;
+  min-width: 82%;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ ul a{
 .header-right{
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 5px;
 }
 .header-right p{
   font-size: 15px;
@@ -72,7 +72,7 @@ ul a{
   position: fixed;
   top: 0;
   right: -250px;
-  width: 250px;
+  width: 200px;
   height: 100%;
   background: white;
   color: #DFB94C;
@@ -87,9 +87,10 @@ ul a{
 .sidebar li{
   list-style-type: none;
   padding: 10px 0px;
-  font-weight: 350;
-  text-transform: uppercase;
+  font-weight: lighter;
+  text-transform: capitalize;
   cursor: pointer;
+  font-size: 17px;
 }
 
 /* When checkbox is checked, show sidebar */
@@ -98,11 +99,11 @@ ul a{
 }
 
 .sidebar-close-btn{
-  padding: 0px 5px;
+  padding: 5px 10px;
   border: none;
   color: #FFF;
   background-color: #ccc;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
 }
 
@@ -128,4 +129,13 @@ ul a{
   font-size: 15px;
   color: #DFB94C;
 
+}
+@media(max-width:499px){
+  .footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-direction: column;
+  }
 }
