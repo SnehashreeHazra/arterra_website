@@ -29,7 +29,7 @@ ul a{
 .header-right{
   display: flex;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 5px;
 }
 .header-right p{
   font-size: 15px;
