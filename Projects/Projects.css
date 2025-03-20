@@ -1,3 +1,11 @@
+details summary {
+  list-style: none; /* Removes the default triangle */
+}
+
+details summary::-webkit-details-marker {
+  display: none; /* Hides the marker in WebKit browsers (Chrome, Safari) */
+}
+
 .projects-container{
   margin-bottom: 20px;
 }
@@ -24,12 +32,14 @@
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.project-item {
-  position: relative;
-  overflow: hidden;
+.projects-grid-container a{
   width: 100%;
   max-width: 23.5%;
   min-width: 23.5%;
+}
+.project-item {
+  position: relative;
+  overflow: hidden;
 }
 
 .project-item .overlay {
@@ -99,3 +109,74 @@
   background: rgba(0, 0, 0, 0.5); 
   opacity: 1;
 }
+
+.new-cruise-container{
+  margin-top: 30px;
+}
+
+.new-cruise-container img{
+  width: 100%;
+  /* max-width: 80%; */
+  /* min-width: 80%; */
+  margin: 0 auto;
+  height: 500px;
+}
+
+.new-cruise-text{
+  display: flex;
+  margin-top: 40px;
+}
+.text-left-1{
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+}
+.text-left-1 h3{
+  color: #DFB94C;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.text-left-1 p{
+  font-size: 16px;
+  /* letter-spacing: 2px; */
+  color: #7f7f7f;
+  padding: 15px 0px;
+}
+.text-right-1{
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.text-right-1 h4{
+  font-weight: 400;
+  color: #DFB94C;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.text-right-1 i{
+  margin-left: 5px;
+  cursor: pointer;
+}
+.project-description{
+  padding: 15px 0;
+  border-bottom: 1px solid #ccc;
+}
+.project-description span{
+  color: #DFB94C;
+  font-size: 15px;
+  margin-right: 8px;
+}
+.project-description p{
+  color: #7f7f7f;
+  padding: 2px 0;
+}
+.back-to-projects a{
+  text-decoration: none;
+  color: #DFB94C;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
