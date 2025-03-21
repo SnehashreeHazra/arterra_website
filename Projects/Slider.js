@@ -53,6 +53,7 @@
     },
     effect: "slide", // Keeps the default sliding effect
     easing: "ease-in-out", // Smoothens slide transition
+    
   //   breakpoints: {
   //   999: {
   //     spaceBetween: 20, // Reduce space between slides when width is 600px or less
