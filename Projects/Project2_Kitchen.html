@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Document</title>
 </head>
 <body>
@@ -81,11 +82,14 @@
 
         <div class="new-cruise-text">
           <div class="text-left-1">
-            <h3>Compact Home Kitchen</h3>
-            <p>Very simply put, a Kitchen is the heart of a home. So, when it comes to design, our goal is to make sure it speaks volumes about the soul of the house. Free flow of movement, smart location of appliances, optimal use of space and clean minimalistic design – all these create for a wholistic blueprint of the most sought-after place in anybody’s home.</p>
+            <h3 data-aos="fade-up" data-aos-duration="1000">Compact Home Kitchen</h3>
+            <div data-aos="fade-up" data-aos-duration="1300">
 
-
-            <p>Here is a glimpse of another kitchen design Arterra is working on with the use of white to enhance the size of the space creating a clean minimalistic look keeping in mind the end purpose of a space efficient home kitchen.</p>
+              <p>Very simply put, a Kitchen is the heart of a home. So, when it comes to design, our goal is to make sure it speaks volumes about the soul of the house. Free flow of movement, smart location of appliances, optimal use of space and clean minimalistic design – all these create for a wholistic blueprint of the most sought-after place in anybody’s home.</p>
+  
+  
+              <p>Here is a glimpse of another kitchen design Arterra is working on with the use of white to enhance the size of the space creating a clean minimalistic look keeping in mind the end purpose of a space efficient home kitchen.</p>
+            </div>
           </div>
 
 
@@ -122,5 +126,10 @@
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./Slider.js"></script>
+  <!-- AOS Data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
