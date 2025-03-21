@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="uni-container">
@@ -43,10 +44,13 @@
             <video loop muted autoplay src="../assets/Tree_Animation.mp4"></video>
           </div>
           <div>
-            <h2 style="font-size: 24px; font-weight: normal; color: #DFB94C;margin-top: 40px;">ABOUT  ARTERRA</h2>
-            <p style="font-size: 15px; color: #a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400;line-height: 22px;">Arterra signifies the eternal bond between Art and Terra - Earth. Envisioned by Avani Shree Kanoria, its philosophy and beliefs are firmly rooted to planet Earth, bringing together creativity, technique and architecture.</p>
-            <p style="font-size: 15px; color:#a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400; line-height: 22px;">Avani (meaning Earth in Sanskrit) created Arterra (Ar meaning belonging to; and Terra meaning Earth, in Latin) to live her vision of amalgamating architecture with nature and all that surrounds us. Architecture, according to her, is about fabricating the natural environment, while protecting the various elements of the earth.</p>
-            <p style="font-size: 15px; color: #a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400; line-height: 22px;">Arterra through its projects aims at bridging the gap between language, culture, nature and design.</p>
+            <h2 style="font-size: 24px; font-weight: normal; color: #DFB94C;margin-top: 40px;" data-aos="fade-up" data-aos-offset="300" data-aos-duration="1000">ABOUT  ARTERRA</h2>
+            <div data-aos="fade-up"  data-aos-duration="1300">
+              <p style="font-size: 15px; color: #a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400;line-height: 22px;">Arterra signifies the eternal bond between Art and Terra - Earth. Envisioned by Avani Shree Kanoria, its philosophy and beliefs are firmly rooted to planet Earth, bringing together creativity, technique and architecture.</p>
+              <p style="font-size: 15px; color:#a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400; line-height: 22px;">Avani (meaning Earth in Sanskrit) created Arterra (Ar meaning belonging to; and Terra meaning Earth, in Latin) to live her vision of amalgamating architecture with nature and all that surrounds us. Architecture, according to her, is about fabricating the natural environment, while protecting the various elements of the earth.</p>
+              <p style="font-size: 15px; color: #a5a4a4;margin-bottom:30px;margin-top:30px;font-weight: 400; line-height: 22px;">Arterra through its projects aims at bridging the gap between language, culture, nature and design.</p>
+
+            </div>
           </div>
 
           <footer class="footer" style="margin-top: 65px;">
@@ -61,7 +65,11 @@
           </footer>
           
     </div>
-
+    <!-- AOS Data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 </body>
