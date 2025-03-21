@@ -42,7 +42,9 @@ details summary::-webkit-details-marker {
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.projects-grid-container a{
+
+
+.project-item-link{
   width: 100%;
   max-width: 23.5%;
   min-width: 23.5%;
@@ -52,7 +54,14 @@ details summary::-webkit-details-marker {
   overflow: hidden;
 }
 
-.project-item .overlay {
+.project-item2{
+  width: 100%;
+  max-width: 23.5%;
+  min-width: 23.5%;
+}
+
+
+.project-item  .overlay {
   position: absolute;
   top: 80%;
   left: 0;
@@ -71,7 +80,7 @@ details summary::-webkit-details-marker {
   font-size: 13px;
 }
 
-.overlay2{
+.project-item .overlay2{
   position: absolute;
   width: 100%;
   bottom: 0%;
@@ -96,15 +105,26 @@ details summary::-webkit-details-marker {
   width: 100%;
   padding: 5px 0px;
   font-weight: 500;
+  width: 100%;
 }
 
 .overlay2 p{
   text-align: left;
+  /* border-bottom: 1px solid #ccc; */
+  width: 100%;
+  /* padding: 5px 0px; */
+  /* width: 100%; */
+  /* text-decoration: none; */
+}
+.overlay2 a{
+  text-align: left;
   border-bottom: 1px solid #ccc;
   width: 100%;
-  padding: 5px 0px;
+  padding: 8px 0px;
+  text-decoration: none;
+  color: #FFF;
 }
-.overlay2 p:hover{
+.overlay2 a:hover{
   background-color: #7f7f7f;
 }
 
