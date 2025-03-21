@@ -1,3 +1,24 @@
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const mainSwiper = document.querySelector(".new-cruise-container .swiper .swiper-wrapper");
+    const mainImages = mainSwiper.querySelectorAll(".swiper-slide img");
+    const thumbnails = document.querySelectorAll(".slider-2-container .swiper-slide img");
+
+    thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener("click", function () {
+            // Get the currently active slide in the main slider
+            const activeSlide = mainSwiper.querySelector(".swiper-slide-active img");
+
+            if (activeSlide) {
+                activeSlide.src = this.src;
+            }
+        });
+    });
+});
+
+  
+  
+  
   var swiper = new Swiper(".swiper", {
     slidesPerView: 1, 
     spaceBetween: 10,
