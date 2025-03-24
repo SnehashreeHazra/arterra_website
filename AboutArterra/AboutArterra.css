@@ -12,6 +12,21 @@
     object-position: center;
     object-fit: cover;
 }
+.arterra-about-txt{
+    margin-top: 10px;
+}
+.arterra-about-txt p{
+    color: #DFB94C;
+
+}
+.arterra-about-txt ul{
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.arterra-about-txt li{
+    color:#a5a4a4;
+    margin-top: 5px;
+}
 @media(max-width:900px){
     .about_video_div{
         width: 100%;

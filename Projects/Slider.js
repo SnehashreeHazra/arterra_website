@@ -39,7 +39,7 @@
 
   var swiper2 = new Swiper(".slider-2-container", {
     slidesPerView: 4, // Show 4 images at a time
-    spaceBetween: 80, // Space between images
+    spaceBetween: 20, // Space between images
     loop: true, // Infinite scrolling
     speed: 1000,
     navigation: {
@@ -54,6 +54,11 @@
     effect: "slide", // Keeps the default sliding effect
     easing: "ease-in-out", // Smoothens slide transition
     
+    breakpoints: {
+      400: {
+        spaceBetween: 5
+      }
+    }
   //   breakpoints: {
   //   999: {
   //     spaceBetween: 20, // Reduce space between slides when width is 600px or less

@@ -84,7 +84,7 @@ ul a{
   position: fixed;
   top: 0;
   right: -250px;
-  width: 200px;
+  width: 250px;
   height: 100%;
   background: white;
   color: #DFB94C;
@@ -98,12 +98,22 @@ ul a{
 
 .sidebar li{
   list-style-type: none;
-  padding: 10px 0px;
+  padding: 10px 8px;
   /* font-weight: lighter; */
   text-transform: capitalize;
   cursor: pointer;
   font-size: 16px;
+  /* color: #DFB94C; */
 }
+.sidebar li:hover{
+  background-color: #eee;
+  border-radius: 5px;
+  /* color: black; */
+}
+.sidebar li a:hover{
+  color: #987d33;
+}
+
 
 /* When checkbox is checked, show sidebar */
 #menu-toggle:checked + .sidebar {
