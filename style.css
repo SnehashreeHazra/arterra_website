@@ -31,12 +31,20 @@ ul a{
   align-items: center;
   column-gap: 5px;
 }
+.header-right:hover label{
+  color: #987d33;
+}
+
 .header-right p{
   font-size: 15px;
   font-weight: 300;
   color: #DFB94C;
   letter-spacing: 3px;
   cursor: pointer;
+}
+
+.header-right p:hover{
+  color: #987d33;
 }
 
 .header00 img{
@@ -48,6 +56,10 @@ ul a{
   font-size:20px;
   cursor: pointer;
 }
+.header00 i:hover{
+  color: #987d33;
+}
+
 
 /* *********************Sidebar CSS******************** */
 
@@ -99,12 +111,19 @@ ul a{
 }
 
 .sidebar-close-btn{
-  padding: 5px 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 12px;
   border: none;
   color: #FFF;
   background-color: #ccc;
-  border-radius: 3px;
+  border-radius: 50%;
   cursor: pointer;
+}
+.sidebar-close-btn:hover{
+  background-color: #5a595982;
 }
 
 
